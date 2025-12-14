@@ -15,7 +15,7 @@ import OrderConfirmation from './pages/OrderConfirmation';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/science-imjm.com">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
