@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const repoName = '/science-imjm.com/';
+const repoName = 'Ayat-dev/science-imjm.com/';
 
 // https://vite.dev/config/
 export default defineConfig({
