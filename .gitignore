@@ -1,29 +1,7 @@
 # Create .gitignore to keep only dist
 @"
-# Dependencies
-node_modules/
-.env
-.env.local
-
-# Source files (keep only dist)
-src/
-public/
-*.tsx
-*.ts
-*.jsx
-*.js
-!dist/**
-
-# Config files
-*.json
-*.config.js
-*.config.ts
-!package.json
-Dockerfile
-README.md
-
-# IDE
-.vscode/
-.idea/
-*.swp
+# Ignore all files
+*
+!dist/
+!.gitignore
 "@ | Out-File -Encoding UTF8 .gitignore
