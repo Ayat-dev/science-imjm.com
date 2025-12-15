@@ -1,7 +1,0 @@
-# Create .gitignore to keep only dist
-@"
-# Ignore all files
-*
-!dist/
-!.gitignore
-"@ | Out-File -Encoding UTF8 .gitignore
